@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>js-forLoop-table</title>
+  </head>
+  <body>
+    <script>
+      var num1 = +prompt('enter a number');
+      var num2 = 2;
+
+      if (num2 <= num1) {
+       for ( var j = 1; j < num1; j++) {  
+         
+         console.log('Table of ' + num2)
+         console.log('------')
+          for ( var i = 1; i <= 10; i++) {
+            console.log(num2 + ' X ' + i + ' = ' + num2*i);
+          }
+          num2 = num2 + 1;
+          console.log('------')
+          }
+        } 
+    </script>
+  </body>
+</html>
